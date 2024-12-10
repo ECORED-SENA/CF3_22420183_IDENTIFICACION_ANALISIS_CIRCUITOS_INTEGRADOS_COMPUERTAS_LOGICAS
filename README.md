@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **Compuertas lógicas**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF3_22420183_IDENTIFICACION_ANALISIS_CIRCUITOS_INTEGRADOS_COMPUERTAS_LOGICAS/](https://ecored-sena.github.io/CF3_22420183_IDENTIFICACION_ANALISIS_CIRCUITOS_INTEGRADOS_COMPUERTAS_LOGICAS/)
 
 #
 
