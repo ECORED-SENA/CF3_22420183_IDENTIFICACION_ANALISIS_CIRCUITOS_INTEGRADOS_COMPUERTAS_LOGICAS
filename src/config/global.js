@@ -91,32 +91,84 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Representaciones de las compuertas lógicas.',
+      referencia:
+        'Manik. (2022). COMPUERTAS LÓGICAS (desde cero) - Explicación detallada. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=shcAMLESVrE&ab_channel=Manik',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Representaciones de las compuertas lógicas.',
+      referencia:
+        'Ivan Espinoza. (2022). Electrónica digital básica, compuerta lógica NOT, CI 74LS04. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=C3RoKyfvS-4&list=PLDSIUVDiODhJkm-847DEJZtNJR4C8uuR8&ab_channel=IvanEspinoza',
+    },
+    {
+      tema: 'Representaciones de las compuertas lógicas.',
+      referencia:
+        'McGraw Hill. (s.f.). <i>Introducción a los sistemas digitales: Unidad 1</i>.',
+      tipo: 'Documento',
+      link: 'http://www.mcgraw-hill.es/bcv/guide/capitulo/844817156X.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Álgebra de <i>Boole</i>',
+      significado:
+        'base matemática que sustenta las operaciones lógicas utilizadas en circuitos digitales.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Circuito integrado (CI)',
+      significado:
+        'dispositivo electrónico compacto que agrupa varias compuertas lógicas.',
+    },
+    {
+      termino: 'Compuerta <i>AND</i>',
+      significado:
+        'compuerta lógica que devuelve 1 si todas las entradas son 1.',
+    },
+    {
+      termino: 'Compuerta lógica',
+      significado:
+        'elemento básico de un circuito digital que realiza operaciones booleanas.',
+    },
+    {
+      termino: 'Compuerta <i>NOT</i>',
+      significado: 'compuerta lógica que invierte el valor de la entrada.',
+    },
+    {
+      termino: 'Compuerta <i>OR</i>',
+      significado:
+        'compuerta lógica que devuelve 1 si al menos una entrada es 1.',
+    },
+    {
+      termino: 'Compuerta <i>XOR</i>',
+      significado:
+        'compuerta lógica que devuelve 1 si las entradas son diferentes.',
+    },
+    {
+      termino: 'Configuración interna',
+      significado:
+        'disposición de compuertas lógicas dentro de un circuito integrado.',
+    },
+    {
+      termino: 'Operaciones booleanas',
+      significado:
+        'procesos lógicos basados en álgebra de Boole, como <i>AND, OR y NOT</i>.',
+    },
+    {
+      termino: 'Tabla de verdad',
+      significado:
+        'representación que muestra todas las combinaciones posibles de entradas y salidas de una compuerta lógica.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'McGraw Hill. (s.f.). <i>Introducción a los sistemas digitales: Unidad 1</i>. ',
+      link: 'http://www.mcgraw-hill.es/bcv/guide/capitulo/844817156X.pdf',
     },
   ],
   creditos: [
@@ -139,8 +191,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Magda Melissa Rodríguez Celis',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -149,35 +207,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
