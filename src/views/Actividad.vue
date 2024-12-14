@@ -34,7 +34,7 @@ export default {
         },
         {
           id: 2,
-          texto: 'La compuerta NOT tiene dos entradas y una salida.',
+          texto: 'La compuerta <i>NOT</i> tiene dos entradas y una salida.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -58,7 +58,8 @@ export default {
         },
         {
           id: 4,
-          texto: 'La operación de la compuerta AND se representa como A + B.',
+          texto:
+            'La operación de la compuerta <i>AND</i> se representa como A + B.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -84,7 +85,7 @@ export default {
         {
           id: 6,
           texto:
-            'La compuerta XOR genera una salida verdadera solo si ambas entradas son iguales.',
+            'La compuerta <i>XOR</i> genera una salida verdadera solo si ambas entradas son iguales.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -110,7 +111,7 @@ export default {
         {
           id: 8,
           texto:
-            'La compuerta OR devuelve un resultado falso si al menos una entrada es verdadera.',
+            'La compuerta <i>OR</i> devuelve un resultado falso si al menos una entrada es verdadera.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -135,7 +136,7 @@ export default {
         {
           id: 10,
           texto:
-            'La función lógica de la compuerta NAND es la negación de la operación AND.',
+            'La función lógica de la compuerta <i>NAND</i> es la negación de la operación <i>AND</i>.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

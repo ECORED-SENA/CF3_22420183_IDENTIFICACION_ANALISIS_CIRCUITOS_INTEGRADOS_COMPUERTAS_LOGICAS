@@ -43,6 +43,12 @@ export default {
         titulo: 'Representaciones de las compuertas lógicas',
         desarrolloContenidos: true,
       },
+      {
+        nombreRuta: 'tema2',
+        numero: '2',
+        titulo: 'Las compuertas logicas y los circuitos integrados (CI)',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
@@ -226,11 +232,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        //{
-        //  nombre: 'Luis Gabriel Urueta Alvarez',
-        //  cargo: 'Validador y vinculador de recursos educativos digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         //{
         //  nombre: 'Jaime Hernán Tejada Llano',
         //  cargo: 'Validador y vinculador de recursos educativos digitales',

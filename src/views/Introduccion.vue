@@ -7,7 +7,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p(data-aos="fade-up") Las compuertas lógicas son elementos fundamentales en el mundo de los circuitos digitales, ya que permiten procesar información binaria a través de operaciones booleanas como la conjunción (AND), disyunción (OR) y negación (NOT). Estos componentes son esenciales para el diseño y funcionamiento de sistemas electrónicos, desde dispositivos simples hasta complejos equipos computacionales.
+    p(data-aos="fade-up") Las compuertas lógicas son elementos fundamentales en el mundo de los circuitos digitales, ya que permiten procesar información binaria a través de operaciones booleanas como la conjunción (#[i AND]), disyunción (#[i OR]) y negación (#[i NOT]). Estos componentes son esenciales para el diseño y funcionamiento de sistemas electrónicos, desde dispositivos simples hasta complejos equipos computacionales.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
