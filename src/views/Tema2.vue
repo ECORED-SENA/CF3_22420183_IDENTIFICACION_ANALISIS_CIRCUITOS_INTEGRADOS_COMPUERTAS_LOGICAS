@@ -18,7 +18,7 @@
     .row.mb-4
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 8.] Circuito integrado 7400
+            p.mb-0 #[b Figura 11.] #[i Circuito integrado 7400]
         .row
           .col-12
             .p-4.bg-c1
@@ -26,7 +26,7 @@
                 img(src="@/assets/curso/tema1/img5.png", alt="Diagrama del circuito integrado 7400 con cuatro compuertas NAND y numeración de pines para las entradas y salidas.", style="width: 660px").m-auto
       .col-lg-5(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 9.] Configuración interna de compuertas
+            p.mb-0 #[b Figura 12.] #[i Configuración interna de compuertas]
         .row
           .col-12
             .p-4.bg-c1
@@ -36,18 +36,18 @@
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 10.] Familia de circuitos integrados
+            p.mb-0 #[b Figura 13.] #[i Familia de circuitos integrados]
         .row
           .col-12
             .p-4.bg-c6
               figure
                 img(src="@/assets/curso/tema1/img7.png", alt="Vista de diferentes circuitos integrados, como 7432 (OR), 7404 (NOT), 7400 (NAND), 7408 (AND), 7402 (NOR) y 7486 (XOR), junto con su configuración interna.", style="width: 900px").m-auto
-      
+
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
+  name: 'Tema2',
   data: () => ({
     // variables de vue
   }),

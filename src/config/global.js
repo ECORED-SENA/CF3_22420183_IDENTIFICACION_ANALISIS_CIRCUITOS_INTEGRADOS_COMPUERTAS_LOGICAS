@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Compuertas lógicas',
-    descripcionCurso:
+    Name: 'Compuertas lógicas',
+    Description:
       'Las compuertas lógicas son elementos básicos de los circuitos digitales, responsables de realizar operaciones booleanas como <i>AND</i>, <i>OR</i> y <i>NOT</i>. Estas se integran en circuitos integrados (CI), dispositivos compactos que agrupan múltiples compuertas para procesar información binaria. Son fundamentales en tecnologías como computadoras, telecomunicaciones y sistemas automatizados, permitiendo diseños eficientes y funcionales.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -99,14 +99,14 @@ export default {
     {
       tema: 'Representaciones de las compuertas lógicas.',
       referencia:
-        'Manik. (2022). COMPUERTAS LÓGICAS (desde cero) - Explicación detallada. [Archivo de video] YouTube.',
+        'Manik. (2022). <i>COMPUERTAS LÓGICAS (desde cero) - Explicación detallada</i>. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=shcAMLESVrE&ab_channel=Manik',
     },
     {
       tema: 'Representaciones de las compuertas lógicas.',
       referencia:
-        'Ivan Espinoza. (2022). Electrónica digital básica, compuerta lógica NOT, CI 74LS04. [Archivo de video] YouTube.',
+        'Ivan Espinoza. (2022). <i>Electrónica digital básica, compuerta lógica NOT, CI 74LS04</i>. [Archivo de video] YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=C3RoKyfvS-4&list=PLDSIUVDiODhJkm-847DEJZtNJR4C8uuR8&ab_channel=IvanEspinoza',
@@ -121,7 +121,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Álgebra de <i>Boole</i>',
+      termino: 'Álgebra de Boole',
       significado:
         'base matemática que sustenta las operaciones lógicas utilizadas en circuitos digitales.',
     },

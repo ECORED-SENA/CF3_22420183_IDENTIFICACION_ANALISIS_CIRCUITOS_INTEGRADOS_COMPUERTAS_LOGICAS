@@ -18,7 +18,7 @@
     .row.justify-content-center
       .col-lg-10
         p.mb-0(data-aos="fade-right") En este tema, se explorarán las características, funcionamiento y aplicaciones de las compuertas lógicas, así como su integración en los circuitos integrados, destacando su importancia en el diseño de sistemas digitales. 
-    
+
 </template>
 
 <script>

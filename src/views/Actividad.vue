@@ -9,14 +9,18 @@
   </template>
 
 <script>
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Compuertas lógicas',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos fundamentales de las compuertas lógicas, su funcionamiento, tipos, y su integración en los circuitos digitales.',
+        '<b> Objetivo:</b> identificar los conceptos fundamentales de las compuertas lógicas, su funcionamiento, tipos, y su integración en los circuitos digitales.',
       barajarPreguntas: true,
       preguntas: [
         {
